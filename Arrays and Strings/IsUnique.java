@@ -38,6 +38,7 @@ public class IsUnique {
 	}
 	
 	// Without using additional data structure
+	// Using bitwise operators
 	static boolean isUniqueChars(String s) {
 		int check=0;
 		for(int i=0; i< s.length(); i++) {
